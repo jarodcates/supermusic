@@ -517,34 +517,6 @@ Media
 /************************
 ************************/
 
-@media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 667px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-    /**** Purpose ****/
-
-      .purpose {
-        height: 400px;
-      }
-
-    /**** Info ****/
-
-      .info {
-        height: 400px;
-      }
-
-    /**** Teachers ****/
-
-      #teacher-portrait {
-        display: none;
-      }
-
-      #teacher-landscape {
-        display: flex;
-        flex-wrap: wrap;
-      }
-}
 
 /* Mobile Landscape */
 @media only screen
