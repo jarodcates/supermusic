@@ -521,26 +521,26 @@ Media
 /* Mobile Landscape */
 @media only screen and (orientation: landscape) {
 
-  /**** Purpose ****/
+/**** Purpose ****/
 
-    .purpose {
-      height: 400px;
-    }
+  .purpose {
+    height: 400px;
+  }
 
-  /**** Info ****/
+/**** Info ****/
 
-    .info {
-      height: 400px;
-    }
+  .info {
+    height: 400px;
+  }
 
-  /**** Teachers ****/
+/**** Teachers ****/
 
-    #teacher-portrait {
-      display: none;
-    }
+  #teacher-portrait {
+    display: none;
+  }
 
-    #teacher-landscape {
-      display: flex;
-      flex-wrap: wrap;
-    }
+  #teacher-landscape {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
